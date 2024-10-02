@@ -76,18 +76,18 @@ public class App {
     
 	  
 	       //----------DELETE Operation----------
-	  try {
-		  Student st= new Student();
-		   st.setId(7);
-		  session.delete(st);
-		  tx.commit();
-			  
-		 System.out.println();
-	     System.out.println("STUDENT DATA SUCCESSFULLY DELETED.......");
-		  
-		  }catch(Exception e) {
-		  e.printStackTrace();
-	  }
+//	  try {
+//		  Student st= new Student();
+//		   st.setId(7);
+//		  session.delete(st);
+//		  tx.commit();
+//			  
+//		 System.out.println();
+//	     System.out.println("STUDENT DATA SUCCESSFULLY DELETED.......");
+//		  
+//		  }catch(Exception e) {
+//		  e.printStackTrace();
+//	  }
 	  
 	}
 
